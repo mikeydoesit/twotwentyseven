@@ -12,68 +12,215 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/app.css">
-
-        <style>
-            * {
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-                font-family: 'Lato', sans-serif;
-            }
-        </style>
-
+        <link rel="stylesheet" href="./css/style.css">
+ 
     </head>
     <body>
-        <div class="app grid-container">
+        <div class="app">
             
             <!-- Header -->
-            <header class="row">
-                <div class="small-12 medium-6">
-
+            <header class="">
+                <div class="left_column">
+                    <div class="logo_wrapper">
+                        <img class="logo" src="https://accraecommerce.com/htmlemailimages/disneylogo.png"/>
+                    </div>
+                    <nav>
+                        <a>
+                            <span>
+                                TV
+                            </span>
+                        </a>
+                        <a>
+                            <span>
+                                Movies
+                            </span>
+                        </a>
+                        <a>
+                            <span>
+                                Store
+                            </span>
+                        </a>
+                        <a>
+                            <span>
+                                Games
+                            </span>
+                        </a>
+                        <a>
+                            <span>
+                                Video
+                            </span>
+                        </a>
+                        <a>
+                            <span>
+                                Win
+                            </span>
+                        </a>
+                        <a>
+                            <span>
+                                Holidays
+                            </span>
+                        </a>
+                        <a>
+                            <span>
+                                Disneylife
+                            </span>
+                        </a>
+                    </nav>
                 </div>
-                <div class="small-12 medium-6">
-
+                <div class="right_column">
+                    <div class="right_column_content">
+                        <i class="far fa-user-circle"></i>
+                        <span>Login/Register</span>
+                    </div>
                 </div>
             </header>
 
             <!-- Main Content -->
-            <main>
-                <section class="hero_slider">
-
+            <main class="">
+                <section class="hero_slider grid-x">
+                    <div class="small-12">
+                        <img src="https://accraecommerce.com/htmlemailimages/deadpoets.jpg" />
+                    </div>
                 </section>
                 <section class="plain_text">
-                    
+                    <h2>Covid-19 Update</h2>
+                    <p>Nam pharetra, nunc sit amet fringilla tristique, tellus ante cursus metus, tincidunt pretium justo nulla vitae ante. Nunc tristique velit quis elit suscipit, at ornare dolor ullamcorper. Donec tincidunt augue arcu, id lacinia nulla finibus a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris sit amet est libero. Vivamus malesuada dolor ut luctus dapibus.</p>
                 </section>
-                <section class="slider_component">
-                    
+                <section class="slider_component_section">
+                    <div class="slider_component_header">
+                        <h3>New releases this month</h3>
+                        <div>
+                            <span>See all</span>
+                            <i class="fa-solid fa-right-long"></i>
+                        </div>
+                    </div>
+                    <div class="slider_component grid-x">
+                        <div class="small-3">
+                            <img src="https://accraecommerce.com/htmlemailimages/lionking.jpg" />
+                        </div>
+                        <div class="small-3">
+                            <img src="https://accraecommerce.com/htmlemailimages/mermaid.jpg" />
+                        </div>
+                        <div class="small-3">
+                            <img src="https://accraecommerce.com/htmlemailimages/alice.jpg" />
+                        </div>
+                        <div class="small-3">
+                            <img src="https://accraecommerce.com/htmlemailimages/incredible.jpg" />
+                        </div>
+                    </div>
+
                 </section>
                 <section class="twocolumn_image_text">
-                    
+                    <div class="small-12 medium-6">
+                        <img src="https://accraecommerce.com/htmlemailimages/drstrange.jpg" />
+                    </div>
+                    <div class="small-12 medium-6">
+                        <h3>New Dr Strange trailer</h3>
+                        <p>Nam pharetra, nunc sit amet fringilla tristique, tellus ante cursus metus, tincidunt pretium justo nulla vitae ante. Nunc tristique velit quis elit suscipit, at ornare dolor ullamcorper. Donec tincidunt augue arcu, id lacinia nulla finibus a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris sit amet est libero. Vivamus malesuada dolor ut luctus dapibus.</p>
+                        <span>Read more</span>
+                    </div>
                 </section>
-                <section class="fourcolumn_image">
-                    
+                <section class="fourcolumn_image grid-x">
+                    <div class="small-6 medium-3">
+                        <img src="https://accraecommerce.com/htmlemailimages/disney1.jpg" />
+                    </div>
+                    <div class="small-6 medium-3">
+                        <img src="https://accraecommerce.com/htmlemailimages/disney2.jpg" />
+                    </div>
+                    <div class="small-6 medium-3">
+                        <img src="https://accraecommerce.com/htmlemailimages/disney3.jpg" />
+                    </div>
+                    <div class="small-6 medium-3">
+                        <img src="https://accraecommerce.com/htmlemailimages/disney4.jpg" />
+                    </div>
                 </section>
                 <section class="contact_form">
-                    
+                    <div class="form_content">
+                        <div class="grid-x">
+                            <div class="small-12 medium-6">
+                                <input type="text" placeholder="Name"/>
+                            </div>
+                            <div class="small-12 medium-6">
+                                <input type="text" placeholder="Surname*" required/>
+                            </div>
+                        </div>
+                        <div class="grid-x">
+                            <div class="small-12 medium-6">
+                                <input type="tel" placeholder="Contact number" />
+                            </div>
+                            <div class="small-12 medium-6">
+                                <input type="email" placeholder="Email address*" required/>
+                            </div>
+                        </div>
+                        <div class="grid-x">
+                            <div class="small-12">
+                                <textarea placeholder="Leave your message here*" required></textarea>
+                            </div>
+                        </div>
+                        <div class="submit_btn">
+                            <span>Submit</span>
+                            <i class="fa-solid fa-right-long"></i>
+                        </div>
+                    </div>
                 </section>
             </main>
 
             <!-- Footer -->
-            <footer class="row">
+            <footer class="grid-x">
                 <div class="small-12 medium-2">
-
+                    <h5>Movies</h5>
+                    <ul>
+                        <li>Nam pharetra</li>
+                        <li>nunc sit amet</li>
+                        <li>fringilla tristique</li>
+                        <li>tellus ante cursus metus</li>
+                        <li>tincidunt pretium</li>
+                        <li>justo nulla vitae</li>
+                    </ul>
                 </div>
                 <div class="small-12 medium-2">
-
+                    <h5>Series</h5>
+                    <ul>
+                        <li>Nam pharetra</li>
+                        <li>nunc sit amet</li>
+                        <li>fringilla tristique</li>
+                        <li>tellus ante cursus metus</li>
+                        <li>tincidunt pretium</li>
+                        <li>justo nulla vitae</li>
+                    </ul>
                 </div>
                 <div class="small-12 medium-2">
-
+                    <h5>DisneyLife</h5>
+                    <ul>
+                        <li>Nam pharetra</li>
+                        <li>nunc sit amet</li>
+                        <li>fringilla tristique</li>
+                        <li>tellus ante cursus metus</li>
+                        <li>tincidunt pretium</li>
+                        <li>justo nulla vitae</li>
+                    </ul>
                 </div>
                 <div class="small-12 medium-2">
-
+                    <h5>Holidays</h5>
+                    <ul>
+                        <li>Nam pharetra</li>
+                        <li>nunc sit amet</li>
+                        <li>fringilla tristique</li>
+                        <li>tellus ante cursus metus</li>
+                        <li>tincidunt pretium</li>
+                        <li>justo nulla vitae</li>
+                    </ul>
                 </div>
                 <div class="small-12 medium-2">
-
+                    <h5>Company</h5>
+                    <li>0206 222 3364</li>
+                    <li>hello@disneylife.com</li>
+                    <li>press@disney.com</li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-spotify"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
                 </div>
             </footer>
         </div>
