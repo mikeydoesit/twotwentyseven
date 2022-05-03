@@ -1,0 +1,243 @@
+// Header Styling
+header {
+    height: fit-content;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2.5em;
+    z-index: 35;
+
+    .left_column {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        
+        .logo_wrapper {
+            height: 100%;
+            margin-right: 3em;
+
+            .logo {
+                width: 9vw;
+
+                &_mobile {
+                    display: none;
+                }
+            }
+        }
+        nav {
+
+            a {
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 0.8em;
+                text-transform: uppercase;
+                color: #fff;
+                padding-right: 3em;
+                font-family: 'Lato', sans-serif;
+            }
+        }
+    }
+
+    .right_column {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        .right_column_content {
+            height: fit-content;
+            width: fit-content;
+            background-color: #FF704B;
+            color: #fff;
+            padding: 0.6em;
+            border-radius: 1.6em;
+
+            span {
+                font-size: 0.8em;
+                text-transform: uppercase;
+                margin: 0 1em;
+                font-family: 'Lato', sans-serif;
+            }
+        }
+    }
+}
+
+
+
+
+// ****** Media queries ******
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 300px) and (max-width: 576.98px) {
+    header {
+        padding: 1em 1.5em;
+
+        .left_column {
+            position: relative;
+            .logo_wrapper {
+    
+                .logo {
+                    display: none;
+    
+                    &_mobile {
+                        display: block;
+                        width: 3em;
+                    }
+                }
+            }
+            nav {
+                position: absolute;
+                top: calc(100% + 1em);
+                left: -1.5em;
+                z-index: 21;
+                padding: 2em 2.5em;
+                background-color: #000;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: fit-content;
+                transform: translateY(-150%);
+
+                a {
+                    padding: 1.4em 0;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 577px) and (max-width: 767.98px) { 
+    header {
+        padding: 1em 1.5em;
+        
+        .left_column {
+            position: relative;
+            
+            .logo_wrapper {
+    
+                .logo {
+                    display: none;
+    
+                    &_mobile {
+                        display: block;
+                        width: 3em;
+                    }
+                }
+            }
+            nav {
+                position: absolute;
+                top: calc(100% + 1em);
+                left: -1.5em;
+                z-index: 21;
+                padding: 2em 2.5em;
+                background-color: #000;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: fit-content;
+                transform: translateY(-150%);
+
+                a {
+                    padding: 1.4em 0;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) { 
+    header {
+    
+        .left_column {
+            position: relative;
+            
+            .logo_wrapper {
+    
+                .logo {
+                    display: none;
+    
+                    &_mobile {
+                        display: block;
+                        width: 7vw;
+                    }
+                }
+            }
+            nav {
+                position: absolute;
+                top: calc(100% + 1em);
+                left: -2.5em;
+                z-index: 21;
+                padding: 2em 2.5em;
+                background-color: #000;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: fit-content;
+                transform: translateY(-150%);
+
+                a {
+                    padding: 1.4em 0;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+/* // Large devices (desktops, less than 1080px) */
+@media (min-width: 991.99px) and (max-width: 1079.98px) { 
+    header {
+    
+        .left_column {
+            position: relative;
+
+            .logo_wrapper {
+                
+                .logo {
+                    display: none;
+    
+                    &_mobile {
+                        display: block;
+                        width: 7vw;
+                    }
+                }
+            }
+            nav {
+                position: absolute;
+                top: calc(100% + 1em);
+                left: -2.5em;
+                z-index: 21;
+                padding: 2em 2.5em;
+                background-color: #000;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: fit-content;
+                transform: translateY(-150%);
+
+                a {
+                    padding: 1.4em 0;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+ }

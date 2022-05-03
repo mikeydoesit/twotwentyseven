@@ -1,3 +1,12 @@
+@import '../css/scss/Contact';
+@import '../css/scss/Footer';
+@import '../css/scss/FourColumn';
+@import '../css/scss/Header';
+@import '../css/scss/Hero';
+@import '../css/scss/Plain';
+@import '../css/scss/Slider';
+@import '../css/scss/TwoColumn';
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,124 +14,22 @@
     font-family: 'Lato', sans-serif;
 }
 
-// Header Styling
-header {
-    height: fit-content;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em 2.5em;
 
-    .left_column {
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        
-        .logo_wrapper {
-            height: 100%;
-            margin-right: 3em;
 
-            .logo {
-                width: 9vw;
-            }
-        }
-        nav {
 
-            a {
-                text-decoration: none;
-                font-weight: 700;
-                font-size: 0.8em;
-                text-transform: uppercase;
-                color: #fff;
-                padding-right: 3em;
-                font-family: 'Lato', sans-serif;
-            }
-        }
-    }
 
-    .right_column {
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
 
-        .right_column_content {
-            height: fit-content;
-            width: fit-content;
-            background-color: #FF704B;
-            color: #fff;
-            padding: 0.6em;
-            border-radius: 1.6em;
 
-            span {
-                font-size: 0.8em;
-                text-transform: uppercase;
-                margin: 0 1em;
-                font-family: 'Lato', sans-serif;
-            }
-        }
-    }
-}
 
-// Hero Section Styling
 
-.hero_slider {
-    height: 100vh;
 
-    &_bgd {
-       object-fit: cover;
-       object-position: top;
-       width: 100%;
-       max-height: 100%;
-       position: absolute;
-   }
 
-    &_content {
-        height: 100%;
-        position: relative;
 
-    }
-    &_overlay {
-        height: 100%;
-        width: 100vw;
-        background-color: #000;
-        opacity: 0.5;
-        z-index: 7;
-        position: absolute;
-    }
-    &_cta {
-        font-family: 'Lato', sans-serif;
-        height: 100%;
-        z-index: 14;
-        position: relative;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-        &_title {
-            max-width: 28vw;
-        }
-        h2 {
-            font-family: 'Lato', sans-serif;
-            margin: 1em 0;
-            font-size: 2.1em;
-        }
-        span {
-            border: 2px solid #fff;
-            text-transform: uppercase;
-            font-family: 'Lato', sans-serif;
-            padding: 0.9em 2.5em;
-            font-size: 1.2em;
-            border-radius: 2.4em;
-            line-height: 1;
-        }
-    }
-}
+
+
+
+
+
+
+

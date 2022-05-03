@@ -1,0 +1,116 @@
+// Hero Section Styling
+
+.hero_slider {
+    height: 100vh;
+
+    &_bgd {
+       object-fit: cover;
+       object-position: top;
+       width: 100%;
+       height: 100%;
+       position: absolute;
+   }
+
+    &_content {
+        height: 100%;
+        position: relative;
+
+    }
+    &_overlay {
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        opacity: 0.5;
+        z-index: 7;
+        position: absolute;
+    }
+    &_cta {
+        font-family: 'Lato', sans-serif;
+        height: 100%;
+        z-index: 14;
+        position: relative;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &_title {
+            max-width: 28vw;
+        }
+        h2 {
+            font-family: 'Lato', sans-serif;
+            margin: 1em 0;
+            font-size: 2.1em;
+        }
+        span {
+            border: 2px solid #fff;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            padding: 0.9em 2.5em;
+            font-size: 1.2em;
+            border-radius: 2.4em;
+            line-height: 1;
+        }
+    }
+}
+
+
+
+// ****** Media queries ******
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 300px) and (max-width: 575.98px) {
+    .hero_slider {
+    
+        &_cta {
+
+            &_title {
+                max-width: 50vw;
+            }
+            h2 {
+                font-size: 1.4em;
+            }
+            span {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 577px) and (max-width: 767.98px) { 
+    .hero_slider {
+    
+        &_cta {
+    
+            &_title {
+                max-width: 50vw;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            span {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) { 
+    .hero_slider {
+    
+        &_cta {
+    
+            &_title {
+                max-width: 50vw;
+            }
+        }
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 991.99px) and (max-width: 1199.98px) { 
+    
+ }
