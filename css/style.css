@@ -629,6 +629,12 @@ header .left_column .logo_wrapper .logo_mobile {
   display: none;
 }
 
+header .left_column nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 header .left_column nav a {
   text-decoration: none;
   font-weight: 700;
@@ -698,10 +704,8 @@ header .right_column .right_column_content span {
     z-index: 21;
     padding: 2em 2.5em;
     background-color: #000;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width: 100vw;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -709,15 +713,15 @@ header .right_column .right_column_content span {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    -webkit-transform: translateY(-150%);
-            transform: translateY(-150%);
   }
   header .left_column nav a {
     padding: 1.4em 0;
     font-size: 1em;
+  }
+  header .left_column .isVisible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -743,10 +747,8 @@ header .right_column .right_column_content span {
     z-index: 21;
     padding: 2em 2.5em;
     background-color: #000;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width: 100vw;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -754,15 +756,15 @@ header .right_column .right_column_content span {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    -webkit-transform: translateY(-150%);
-            transform: translateY(-150%);
   }
   header .left_column nav a {
     padding: 1.4em 0;
     font-size: 1em;
+  }
+  header .left_column .isVisible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -785,10 +787,8 @@ header .right_column .right_column_content span {
     z-index: 21;
     padding: 2em 2.5em;
     background-color: #000;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width: 100vw;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -796,15 +796,15 @@ header .right_column .right_column_content span {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    -webkit-transform: translateY(-150%);
-            transform: translateY(-150%);
   }
   header .left_column nav a {
     padding: 1.4em 0;
     font-size: 1em;
+  }
+  header .left_column .isVisible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -827,10 +827,8 @@ header .right_column .right_column_content span {
     z-index: 21;
     padding: 2em 2.5em;
     background-color: #000;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width: 100vw;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -838,20 +836,22 @@ header .right_column .right_column_content span {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    -webkit-transform: translateY(-150%);
-            transform: translateY(-150%);
   }
   header .left_column nav a {
     padding: 1.4em 0;
     font-size: 1em;
   }
+  header .left_column .isVisible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .hero_slider {
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .hero_slider_bgd {
@@ -865,7 +865,7 @@ header .right_column .right_column_content span {
 }
 
 .hero_slider_content {
-  height: 100%;
+  height: 90vh;
   position: relative;
 }
 
