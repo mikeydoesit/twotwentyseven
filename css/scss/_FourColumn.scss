@@ -3,9 +3,13 @@
 .fourcolumn_image {
     height: fit-content;
     padding: 4em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &_content {
-        height: 55vh;
+        height: auto;
+        width: 100%;
 
         .cell {
             height: 100%;

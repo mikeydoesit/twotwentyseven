@@ -9,7 +9,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2em 17em;
+  padding: 2em 14em;
 }
 
 .contact_form_title {
@@ -515,10 +515,20 @@
   height: -moz-fit-content;
   height: fit-content;
   padding: 4em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .fourcolumn_image_content {
-  height: 55vh;
+  height: auto;
+  width: 100%;
 }
 
 .fourcolumn_image_content .cell {
@@ -945,7 +955,7 @@ header .right_column .right_column_content span {
 /* // Large devices (desktops, less than 1200px) */
 .plain_text {
   text-align: center;
-  padding: 3.5em 17em;
+  padding: 3.5em 14em;
 }
 
 .plain_text_title, .plain_text_para {
